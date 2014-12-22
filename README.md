@@ -1,14 +1,15 @@
-Brackets CSSfier
+Brackets zeusCSS
 ====================
 
-Convert HTML into CSS/SCSS/LESS by pasting HTML blocks into CSS/SCSS/LESS file.
+Convert HTML into CSS just by pasting the HTML DOM structure in the file with .css extension.
+This has been desgined to meet the requirements of the HTML designing in the Zeus Learning Pvt Ltd , Mumbai
 
 ## Installation ##
 
 ### Extension Manager
 1. Run Brackets
 2. Select _File > Extension Manager...
-3. Search for “CSSfier” extension and click “Install” button
+3. Search for “zeusCSS” extension and click “Install” button
 
 ### Manual instalation
 1. Under main menu select Help > Show Extensions Folder
@@ -17,28 +18,18 @@ Convert HTML into CSS/SCSS/LESS by pasting HTML blocks into CSS/SCSS/LESS file.
 
 ### How to use
 1. Copy a chunck of your HTML file
-2. Paste it into a SCSS or LESS file
+2. Paste it into CSS file
+3. For name space related information : 
+   Select _Debug > Open Preferences File .
+   In this file add two lines inside the '{' '}' JSON object :
+   "zeusCSS.nameSpace" : "de-mathinteractive-zeus",
+   "zeusCSS.interactivityName" : "my-interactivity"
+4. Replace the "nameSpace" attribute with proper namespace string .
+   Similarly "interactivityName" should be changed to appropriate string.
 
 ----------------
 
 ## Changelog ##
 
-###1.0.1
-- Bug fixes
-
 ###1.0.0
-- Added CSS support
-- Improved selector order and logic
-- Better indentation
-
-###0.1.5
-- Added indentation check
-
-###0.1.3
-- Bug fixes
-
-###0.1.2
-- Added support for LESS files
-
-###0.1.0
 - Initial release
