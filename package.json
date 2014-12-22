@@ -1,0 +1,25 @@
+{
+    "name": "zeusCSS",
+    "title": "HTML2CSS",
+    "version": "1.0.0",
+    "description": "Fetch class names directly from the HTML file.",
+    "homepage": "https://github.com/vihangpatel",
+    "author": "vihangpatel (https://github.com/vihangpatel)",
+    "license": "MIT",
+    "categories": "formatting",
+    "keywords": [
+        "format",
+        "formatting",
+        "convert",
+        "css",
+        "htmlclass",
+        "html2css",
+        "htmltocss"
+    ],
+    "files": [
+        "main.js"
+    ],
+    "engines": {
+        "brackets": ">=0.30.0"
+    }
+}
