@@ -1,4 +1,4 @@
-define(function (require, exports, module) {
+ define(function (require, exports, module) {
 
     var DocumentManager = brackets.getModule("document/DocumentManager"),
         PreferencesManager = brackets.getModule("preferences/PreferencesManager"),
@@ -16,7 +16,7 @@ define(function (require, exports, module) {
         var selector = [];
         if (el.className && el.className.split) {
             var classes = el.className.split(" ");
-            for (var i in classes) {
+            for (var i = 0 ; i < classes.length ; i++) {
                 selector.push("." + classes[classes.length - 1 - i]);
             }
         }       
